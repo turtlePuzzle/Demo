@@ -77,8 +77,8 @@ public class Game : MonoBehaviour
         tutorialManager.AddStep(new TalkCommand(player, "Bấm S để di chuyển xuống dưới"));
         tutorialManager.AddStep(new MoveCommand(player, Direction.Down));
         tutorialManager.AddStep(new TalkCommand(player, "Bấm W để di chuyển lên trên"));
+        tutorialManager.AddStep(new MoveCommand(player, Direction.Up));
         tutorialManager.AddStep(new TalkCommand(player, "Lêu lêu lêu lêu"));
-
         tutorialManager.AddStep(new MoveCommand(player, Direction.Up));
         tutorialManager.AddStep(new MoveCommand(player, Direction.Left));
         tutorialManager.AddStep(new MoveCommand(player, Direction.Left));
@@ -117,7 +117,6 @@ public class Game : MonoBehaviour
         tutorialManager.AddStep(new TalkCommand(player, "AAAAAAAAAAAAAAAAAAAAAAAAAA"));
         tutorialManager.AddStep(new TalkCommand(player, "AAAAAAAAAAAAAAAAAAAAAAAAAA"));
         tutorialManager.AddStep(new TalkCommand(player, "hự hự hự hự"));
-
         tutorialManager.AddStep(new MoveCommand(truck, Direction.Up));
         tutorialManager.AddStep(new MoveCommand(truck, Direction.Up));
         tutorialManager.AddStep(new MoveCommand(truck, Direction.Up));
