@@ -54,7 +54,6 @@ public class Game : MonoBehaviour
         tutorialManager.AddStep(new MoveCommand(player, Direction.Right));
         tutorialManager.AddStep(new MoveCommand(player, Direction.Right));
         tutorialManager.AddStep(new MoveCommand(player, Direction.Right));
-
         tutorialManager.AddStep(new TalkCommand(npc, "Đứa nào đó"));
         tutorialManager.AddStep(new MoveCommand(npc, Direction.Up));
         tutorialManager.AddStep(new MoveCommand(npc, Direction.Up));
